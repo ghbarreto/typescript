@@ -1,9 +1,9 @@
 const EventComponent: React.FC = () => {
-  const onChange = (event: React.ChangeEventHandler<HTMLInputElement>) => {
+  const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     console.log(event);
   };
 
-  const onDrargStart = (event: React.DragEvent<HTMLDivElement>) => {
+  const onDragStart = (event: React.DragEvent<HTMLDivElement>) => {
     console.log('Im being dragged');
   };
   return (
