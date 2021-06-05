@@ -26,6 +26,7 @@ const App = () => {
     const result = await ref.current.transform(input, {
       loader: 'jsx',
       target: 'es2015',
+      target: 'es2015',
     });
 
     setCode(result.code);
