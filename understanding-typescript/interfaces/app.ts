@@ -16,6 +16,10 @@ user1 = {
 };
 
 user1.greet('Hi there!');
+user1.greet('Hi there!');
+user1.greet('Hi there!');
+user1.greet('Hi there!');
+user1.greet('Hi there!');
 
 // greetable
 
